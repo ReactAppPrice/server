@@ -6,6 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+let port = process.env.PORT || "8080";
 mongoose
   .connect("mongodb://0.0.0.0:27017/priceComparison")
   .then(() => {
@@ -14,10 +15,10 @@ mongoose
   .catch((e) => {
     console.log("error");
   });
-
 app.get("/products", async (req, res) => {
-  // let data = await productList.find({});
-  res.send("hello world");
-  // res.json(data);
+  let data = await productList.find({});
+  res.json(data);
 });
-// app.listen("4200");
+app.listen(port, () => {
+  console.log("listning....");
+});
