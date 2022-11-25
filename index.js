@@ -16,8 +16,9 @@ mongoose
     console.log("error");
   });
 app.get("/products", async (req, res) => {
-  let data = await productList.find({});
-  res.json(data);
+  // let data = await productList.find({});
+  // res.json(data);
+  res.send("hello world");
 });
 app.listen(port, () => {
   console.log("listning....");
