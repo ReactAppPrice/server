@@ -16,7 +16,8 @@ mongoose
   });
 
 app.get("/products", async (req, res) => {
-  let data = await productList.find({});
-  res.json(data);
+  // let data = await productList.find({});
+  res.send("hello world");
+  // res.json(data);
 });
 app.listen("4200");
