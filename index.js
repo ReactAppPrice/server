@@ -18,7 +18,7 @@ let port = process.env.PORT || "8080";
 app.get("/products", async (req, res) => {
   // let data = await productList.find({});
   // res.json(data);
-  res.send("hello world");
+  res.json({ name: "maaz" });
 });
 app.listen(port, () => {
   console.log("listning....");
