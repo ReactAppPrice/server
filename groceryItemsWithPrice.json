@@ -1,0 +1,676 @@
+[
+  { "productName": "Nurpur", "category": "Milk", "availableStore": "" },
+  { "productName": "Dairy Omung", "category": "Milk", "availableStore": "" },
+  { "productName": "Haleeb", "category": "Milk", "availableStore": "" },
+  { "productName": "Olpers Milk", "category": "Milk", "availableStore": "" },
+  { "productName": "Nestle Milkpak", "category": "Milk", "availableStore": "" },
+  { "productName": "Dawn", "category": "Bread", "availableStore": "" },
+  { "productName": "Hanif Food", "category": "Bread", "availableStore": "" },
+  { "productName": "Morning Fresh", "category": "Bread", "availableStore": "" },
+  { "productName": "Creek Mart", "category": "Bread", "availableStore": "" },
+  { "productName": "Bake Parlor", "category": "Bread", "availableStore": "" },
+  { "productName": "Sooper", "category": "Biscuits", "availableStore": "" },
+  { "productName": "Gluco", "category": "Biscuits", "availableStore": "" },
+  { "productName": "Marie", "category": "Biscuits", "availableStore": "" },
+  { "productName": "Saltish", "category": "Biscuits", "availableStore": "" },
+  { "productName": "Tuc", "category": "Biscuits", "availableStore": "" },
+  { "productName": "Lays", "category": "Chips", "availableStore": "" },
+  { "productName": "Slanty", "category": "Chips", "availableStore": "" },
+  { "productName": "Kurkure", "category": "Chips", "availableStore": "" },
+  {
+    "productName": "Kababjee's Bakers",
+    "category": "Chips",
+    "availableStore": ""
+  },
+  { "productName": "Cheetos", "category": "Chips", "availableStore": "" },
+  {
+    "productName": "Coca Cola",
+    "category": "Drinks & Bevrages",
+    "availableStore": ""
+  },
+  {
+    "productName": "Sprite",
+    "category": "Drinks & Bevrages",
+    "availableStore": ""
+  },
+  {
+    "productName": "7-up",
+    "category": "Drinks & Bevrages",
+    "availableStore": ""
+  },
+  {
+    "productName": "Fanta",
+    "category": "Drinks & Bevrages",
+    "availableStore": ""
+  },
+  {
+    "productName": "Pepsi",
+    "category": "Drinks & Bevrages",
+    "availableStore": ""
+  },
+  {
+    "productName": "Beef",
+    "category": "Meat & Fish",
+    "availableStore": ""
+  },
+  {
+    "productName": "Lamb and Mutton",
+    "category": "Meat & Fish",
+    "availableStore": ""
+  },
+  {
+    "productName": "Fish",
+    "category": "Meat & Fish",
+    "availableStore": ""
+  },
+  {
+    "productName": "Chicken",
+    "category": "Meat & Fish",
+    "availableStore": ""
+  },
+  {
+    "productName": "Prawns",
+    "category": "Meat & Fish",
+    "availableStore": ""
+  },
+  {
+    "productName": "Blue Ribbon",
+    "category": "Rice",
+    "availableStore": ""
+  },
+  {
+    "productName": "Carolina",
+    "category": "Rice",
+    "availableStore": ""
+  },
+  {
+    "productName": "A-Z Rice Traders",
+    "category": "Rice",
+    "availableStore": ""
+  },
+  {
+    "productName": "Goya",
+    "category": "Rice",
+    "availableStore": ""
+  },
+  {
+    "productName": "Knorr Rice",
+    "category": "Rice",
+    "availableStore": ""
+  },
+  {
+    "productName": "Ashrafi Atta",
+    "category": "Wheat (Atta)",
+    "availableStore": ""
+  },
+  {
+    "productName": "Al-Karam Enterprise",
+    "category": "Wheat (Atta)",
+    "availableStore": ""
+  },
+  {
+    "productName": "Bake Parlour Atta",
+    "category": "Wheat (Atta)",
+    "availableStore": ""
+  },
+  {
+    "productName": "AFederal Flour Mills",
+    "category": "Wheat (Atta)",
+    "availableStore": ""
+  },
+  {
+    "productName": "Feroz Flour & General Mills",
+    "category": "Wheat (Atta)",
+    "availableStore": ""
+  },
+  {
+    "productName": "Tullo",
+    "category": "Cooking Oil",
+    "availableStore": ""
+  },
+  {
+    "productName": "Eva",
+    "category": "Cooking Oil",
+    "availableStore": ""
+  },
+  {
+    "productName": "Dalda",
+    "category": "Cooking Oil",
+    "availableStore": ""
+  },
+  {
+    "productName": "Dastarkhwan",
+    "category": "Cooking Oil",
+    "availableStore": ""
+  },
+  {
+    "productName": "Tullo",
+    "category": "Soya Supreme",
+    "availableStore": ""
+  },
+  {
+    "productName": "Fauji",
+    "category": "Cereal",
+    "availableStore": ""
+  },
+  {
+    "productName": "Quaker Oats",
+    "category": "Cereal",
+    "availableStore": ""
+  },
+  {
+    "productName": "Kellogg's",
+    "category": "Cereal",
+    "availableStore": ""
+  },
+  {
+    "productName": "Frosties",
+    "category": "Cereal",
+    "availableStore": ""
+  },
+  {
+    "productName": "Milo",
+    "category": "Cereal",
+    "availableStore": ""
+  },
+  {
+    "productName": "K&N's",
+    "category": "Frozen Foods",
+    "availableStore": ""
+  },
+  {
+    "productName": "Menu",
+    "category": "Frozen Foods",
+    "availableStore": ""
+  },
+  {
+    "productName": "Mon Salwa",
+    "category": "Frozen Foods",
+    "availableStore": ""
+  },
+  {
+    "productName": "Sabroso",
+    "category": "Frozen Foods",
+    "availableStore": ""
+  },
+  {
+    "productName": "Opa",
+    "category": "Frozen Foods",
+    "availableStore": ""
+  },
+  {
+    "productName": "Adam's",
+    "category": "Cheese & Eggs",
+    "availableStore": ""
+  },
+  {
+    "productName": "Happy Cow",
+    "category": "Cheese & Eggs",
+    "availableStore": ""
+  },
+  {
+    "productName": "Lurpak",
+    "category": "Cheese & Eggs",
+    "availableStore": ""
+  },
+  {
+    "productName": "Young's",
+    "category": "Cheese & Eggs",
+    "availableStore": ""
+  },
+  {
+    "productName": "Dairy Life",
+    "category": "Cheese & Eggs",
+    "availableStore": ""
+  },
+  {
+    "productName": "Apple",
+    "category": "Fruits",
+    "availableStore": ""
+  },
+  {
+    "productName": "Papaya",
+    "category": "Fruits",
+    "availableStore": ""
+  },
+  {
+    "productName": "Grapes",
+    "category": "Fruits",
+    "availableStore": ""
+  },
+  {
+    "productName": "Orange",
+    "category": "Fruits",
+    "availableStore": ""
+  },
+  {
+    "productName": "Banana",
+    "category": "Fruits",
+    "availableStore": ""
+  },
+  {
+    "productName": "Tomato",
+    "category": "Vegetable",
+    "availableStore": ""
+  },
+  {
+    "productName": "Onion",
+    "category": "Vegetable",
+    "availableStore": ""
+  },
+  {
+    "productName": "Lady Finger",
+    "category": "Vegetable",
+    "availableStore": ""
+  },
+  {
+    "productName": "Potato",
+    "category": "Vegetable",
+    "availableStore": ""
+  },
+  {
+    "productName": "Garlic",
+    "category": "Vegetable",
+    "availableStore": ""
+  },
+  {
+    "productName": "Black Pepper",
+    "category": "Spices",
+    "availableStore": ""
+  },
+  {
+    "productName": "Garlic Powder",
+    "category": "Spices",
+    "availableStore": ""
+  },
+  {
+    "productName": "Tumeric (Haldi)",
+    "category": "Spices",
+    "availableStore": ""
+  },
+  {
+    "productName": "Red Pepper",
+    "category": "Spices",
+    "availableStore": ""
+  },
+  {
+    "productName": "Cumin (Zeera)",
+    "category": "Spices",
+    "availableStore": ""
+  },
+  {
+    "productName": "Sunsilk",
+    "category": "Shampoo, Soap & Conditioner",
+    "availableStore": ""
+  },
+  {
+    "productName": "Pantene",
+    "category": "Shampoo, Soap & Conditioner",
+    "availableStore": ""
+  },
+  {
+    "productName": "Clear",
+    "category": "Shampoo, Soap & Conditioner",
+    "availableStore": ""
+  },
+  {
+    "productName": "Head & Shoulders",
+    "category": "Shampoo, Soap & Conditioner",
+    "availableStore": ""
+  },
+  {
+    "productName": "Hello Hair",
+    "category": "Shampoo, Soap & Conditioner",
+    "availableStore": ""
+  },
+  {
+    "productName": "Nurpur",
+    "category": "Butter",
+    "availableStore": ""
+  },
+  {
+    "productName": "Lurpak",
+    "category": "Butter",
+    "availableStore": ""
+  },
+  {
+    "productName": "Haleeb Foods Limited",
+    "category": "Butter",
+    "availableStore": ""
+  },
+  {
+    "productName": "Buffield Pvt. Ltd",
+    "category": "Butter",
+    "availableStore": ""
+  },
+  {
+    "productName": "Blue Band",
+    "category": "Butter",
+    "availableStore": ""
+  },
+  {
+    "productName": "Chana Daal",
+    "category": "Lentils & Grains (Daal)",
+    "availableStore": ""
+  },
+  {
+    "productName": "Mung Daal",
+    "category": "Lentils & Grains (Daal)",
+    "availableStore": ""
+  },
+  {
+    "productName": "Sabat Masoor",
+    "category": "Lentils & Grains (Daal)",
+    "availableStore": ""
+  },
+  {
+    "productName": "Toor Daal",
+    "category": "Lentils & Grains (Daal)",
+    "availableStore": ""
+  },
+  {
+    "productName": "Rajma",
+    "category": "Lentils & Grains (Daal)",
+    "availableStore": ""
+  },
+  {
+    "productName": "Colgate",
+    "category": "Toothpaste",
+    "availableStore": ""
+  },
+  {
+    "productName": "Crest",
+    "category": "Toothpaste",
+    "availableStore": ""
+  },
+  {
+    "productName": "Sensodyne",
+    "category": "Toothpaste",
+    "availableStore": ""
+  },
+  {
+    "productName": "Pepsodent",
+    "category": "Toothpaste",
+    "availableStore": ""
+  },
+  {
+    "productName": "Parodontax",
+    "category": "Toothpaste",
+    "availableStore": ""
+  },
+  {
+    "productName": "Lipton",
+    "category": "Tea / Coffee",
+    "availableStore": ""
+  },
+  {
+    "productName": "Tapal",
+    "category": "Tea / Coffee",
+    "availableStore": ""
+  },
+  {
+    "productName": "Brooke Bond Supreme",
+    "category": "Tea / Coffee",
+    "availableStore": ""
+  },
+  {
+    "productName": "Vital",
+    "category": "Tea / Coffee",
+    "availableStore": ""
+  },
+  {
+    "productName": "ITC Islamabad Chai",
+    "category": "Tea / Coffee",
+    "availableStore": ""
+  },
+  {
+    "productName": "Jauharabad Sugar Mills Limited",
+    "category": "Sugar",
+    "availableStore": ""
+  },
+  {
+    "productName": "Sugarie",
+    "category": "Sugar",
+    "availableStore": ""
+  },
+  {
+    "productName": "Tandlianwala Sugar Mills Limited",
+    "category": "Sugar",
+    "availableStore": ""
+  },
+  {
+    "productName": "D.W Sugar Mills Limited",
+    "category": "Sugar",
+    "availableStore": ""
+  },
+  {
+    "productName": "Haseeb Waqas Sugar Mills Limited",
+    "category": "Sugar",
+    "availableStore": ""
+  },
+  {
+    "productName": "National",
+    "category": "Ketchup / Murtard / Mayo",
+    "availableStore": ""
+  },
+  {
+    "productName": "Shangrila",
+    "category": "Ketchup / Murtard / Mayo",
+    "availableStore": ""
+  },
+  {
+    "productName": "Knorr",
+    "category": "Ketchup / Murtard / Mayo",
+    "availableStore": ""
+  },
+  {
+    "productName": "Bake Parlour",
+    "category": "Ketchup / Murtard / Mayo",
+    "availableStore": ""
+  },
+  {
+    "productName": "Dipitt",
+    "category": "Ketchup / Murtard / Mayo",
+    "availableStore": ""
+  },
+  {
+    "productName": "Kit Kat",
+    "category": "Chocolate",
+    "availableStore": ""
+  },
+  {
+    "productName": "Twix",
+    "category": "Chocolate",
+    "availableStore": ""
+  },
+  {
+    "productName": "Snickers",
+    "category": "Chocolate",
+    "availableStore": ""
+  },
+  {
+    "productName": "Dairy Milk",
+    "category": "Chocolate",
+    "availableStore": ""
+  },
+  {
+    "productName": "Milky Way",
+    "category": "Chocolate",
+    "availableStore": ""
+  },
+  {
+    "productName": "Lemon Max",
+    "category": "Detergent & Dish Soap",
+    "availableStore": ""
+  },
+  {
+    "productName": "Vim",
+    "category": "Detergent & Dish Soap",
+    "availableStore": ""
+  },
+  {
+    "productName": "Surf Excel",
+    "category": "Detergent & Dish Soap",
+    "availableStore": ""
+  },
+  {
+    "productName": "Ariel",
+    "category": "Detergent & Dish Soap",
+    "availableStore": ""
+  },
+  {
+    "productName": "Express Power",
+    "category": "Detergent & Dish Soap",
+    "availableStore": ""
+  },
+  {
+    "productName": "Wall's",
+    "category": "Ice-Cream",
+    "availableStore": ""
+  },
+  {
+    "productName": "Igloo",
+    "category": "Ice-Cream",
+    "availableStore": ""
+  },
+  {
+    "productName": "Hico",
+    "category": "Ice-Cream",
+    "availableStore": ""
+  },
+  {
+    "productName": "Omore",
+    "category": "Ice-Cream",
+    "availableStore": ""
+  },
+  {
+    "productName": "Yummy",
+    "category": "Ice-Cream",
+    "availableStore": ""
+  },
+  {
+    "productName": "Pampers",
+    "category": "Baby Diapers",
+    "availableStore": ""
+  },
+  {
+    "productName": "Molfix",
+    "category": "Baby Diapers",
+    "availableStore": ""
+  },
+  {
+    "productName": "Huggies",
+    "category": "Baby Diapers",
+    "availableStore": ""
+  },
+  {
+    "productName": "Canbebe",
+    "category": "Baby Diapers",
+    "availableStore": ""
+  },
+  {
+    "productName": "Shield",
+    "category": "Baby Diapers",
+    "availableStore": ""
+  },
+  {
+    "productName": "Axe",
+    "category": "Deodorant",
+    "availableStore": ""
+  },
+  {
+    "productName": "Krone Noir",
+    "category": "Deodorant",
+    "availableStore": ""
+  },
+  {
+    "productName": "Fogg",
+    "category": "Deodorant",
+    "availableStore": ""
+  },
+  {
+    "productName": "Bold",
+    "category": "Deodorant",
+    "availableStore": ""
+  },
+  {
+    "productName": "Nivea",
+    "category": "Deodorant",
+    "availableStore": ""
+  },
+  {
+    "productName": "Almonds",
+    "category": "Dry Fruits",
+    "availableStore": ""
+  },
+  {
+    "productName": "Apricots",
+    "category": "Dry Fruits",
+    "availableStore": ""
+  },
+  {
+    "productName": "Cashewnuts",
+    "category": "Dry Fruits",
+    "availableStore": ""
+  },
+  {
+    "productName": "Walnuts",
+    "category": "Dry Fruits",
+    "availableStore": ""
+  },
+  {
+    "productName": "Pistachios",
+    "category": "Dry Fruits",
+    "availableStore": ""
+  },
+  {
+    "productName": "Shan",
+    "category": "Salt",
+    "availableStore": ""
+  },
+  {
+    "productName": "National",
+    "category": "Salt",
+    "availableStore": ""
+  },
+  {
+    "productName": "Hub Salt",
+    "category": "Salt",
+    "availableStore": ""
+  },
+  {
+    "productName": "Falak Salt",
+    "category": "Salt",
+    "availableStore": ""
+  },
+  {
+    "productName": "Rite Salt",
+    "category": "Salt",
+    "availableStore": ""
+  },
+  {
+    "productName": "My Honey",
+    "category": "Honey",
+    "availableStore": ""
+  },
+  {
+    "productName": "Langnese Honey",
+    "category": "Honey",
+    "availableStore": ""
+  },
+  {
+    "productName": "Al-Shifa Honey",
+    "category": "Honey",
+    "availableStore": ""
+  },
+  {
+    "productName": "Young's Honey",
+    "category": "Honey",
+    "availableStore": ""
+  },
+  {
+    "productName": "Salmans Pak Honey",
+    "category": "Honey",
+    "availableStore": ""
+  }
+]
