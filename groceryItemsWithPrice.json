@@ -1,676 +1,2402 @@
 [
-  { "productName": "Nurpur", "category": "Milk", "availableStore": "" },
-  { "productName": "Dairy Omung", "category": "Milk", "availableStore": "" },
-  { "productName": "Haleeb", "category": "Milk", "availableStore": "" },
-  { "productName": "Olpers Milk", "category": "Milk", "availableStore": "" },
-  { "productName": "Nestle Milkpak", "category": "Milk", "availableStore": "" },
-  { "productName": "Dawn", "category": "Bread", "availableStore": "" },
-  { "productName": "Hanif Food", "category": "Bread", "availableStore": "" },
-  { "productName": "Morning Fresh", "category": "Bread", "availableStore": "" },
-  { "productName": "Creek Mart", "category": "Bread", "availableStore": "" },
-  { "productName": "Bake Parlor", "category": "Bread", "availableStore": "" },
-  { "productName": "Sooper", "category": "Biscuits", "availableStore": "" },
-  { "productName": "Gluco", "category": "Biscuits", "availableStore": "" },
-  { "productName": "Marie", "category": "Biscuits", "availableStore": "" },
-  { "productName": "Saltish", "category": "Biscuits", "availableStore": "" },
-  { "productName": "Tuc", "category": "Biscuits", "availableStore": "" },
-  { "productName": "Lays", "category": "Chips", "availableStore": "" },
-  { "productName": "Slanty", "category": "Chips", "availableStore": "" },
-  { "productName": "Kurkure", "category": "Chips", "availableStore": "" },
   {
+    "_id": "63828aacc70d122746d1ae36",
+    "productName": "Nurpur",
+    "category": "Milk",
+    "image": "uploads/1.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae37",
+    "productName": "Dairy Omung",
+    "category": "Milk",
+    "image": "uploads/2.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae38",
+    "productName": "Haleeb",
+    "category": "Milk",
+    "image": "uploads/3.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae39",
+    "productName": "Olpers Milk",
+    "category": "Milk",
+    "image": "uploads/4.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae3a",
+    "productName": "Nestle Milkpak",
+    "category": "Milk",
+    "image": "uploads/5.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae3b",
+    "productName": "Dawn",
+    "category": "Bread",
+    "image": "uploads/6.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae3c",
+    "productName": "Hanif Food",
+    "category": "Bread",
+    "image": "uploads/7.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae3d",
+    "productName": "Morning Fresh",
+    "category": "Bread",
+    "image": "uploads/8.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae3e",
+    "productName": "Creek Mart",
+    "category": "Bread",
+    "image": "uploads/9.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae3f",
+    "productName": "Bake Parlor",
+    "category": "Bread",
+    "image": "uploads/10.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae40",
+    "productName": "Sooper",
+    "category": "Biscuits",
+    "image": "uploads/11.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae41",
+    "productName": "Gluco",
+    "category": "Biscuits",
+    "image": "uploads/12.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae42",
+    "productName": "Marie",
+    "category": "Biscuits",
+    "image": "uploads/13.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae43",
+    "productName": "Saltish",
+    "category": "Biscuits",
+    "image": "uploads/14.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae44",
+    "productName": "Tuc",
+    "category": "Biscuits",
+    "image": "uploads/15.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae45",
+    "productName": "Lays",
+    "category": "Chips",
+    "image": "uploads/16.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae46",
+    "productName": "Slanty",
+    "category": "Chips",
+    "image": "uploads/17.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae47",
+    "productName": "Kurkure",
+    "category": "Chips",
+    "image": "uploads/18.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae48",
     "productName": "Kababjee's Bakers",
     "category": "Chips",
-    "availableStore": ""
+    "image": "uploads/19.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
-  { "productName": "Cheetos", "category": "Chips", "availableStore": "" },
   {
+    "_id": "63828aacc70d122746d1ae49",
+    "productName": "Cheetos",
+    "category": "Chips",
+    "image": "uploads/20.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
+  },
+  {
+    "_id": "63828aacc70d122746d1ae4a",
     "productName": "Coca Cola",
     "category": "Drinks & Bevrages",
-    "availableStore": ""
+    "image": "uploads/21.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae4b",
     "productName": "Sprite",
     "category": "Drinks & Bevrages",
-    "availableStore": ""
+    "image": "uploads/22.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae4c",
     "productName": "7-up",
     "category": "Drinks & Bevrages",
-    "availableStore": ""
+    "image": "uploads/23.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae4d",
     "productName": "Fanta",
     "category": "Drinks & Bevrages",
-    "availableStore": ""
+    "image": "uploads/24.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae4e",
     "productName": "Pepsi",
     "category": "Drinks & Bevrages",
-    "availableStore": ""
+    "image": "uploads/25.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae4f",
     "productName": "Beef",
     "category": "Meat & Fish",
-    "availableStore": ""
+    "image": "uploads/26.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae50",
     "productName": "Lamb and Mutton",
     "category": "Meat & Fish",
-    "availableStore": ""
+    "image": "uploads/27.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae51",
     "productName": "Fish",
     "category": "Meat & Fish",
-    "availableStore": ""
+    "image": "uploads/28.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae52",
     "productName": "Chicken",
     "category": "Meat & Fish",
-    "availableStore": ""
+    "image": "uploads/29.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae53",
     "productName": "Prawns",
     "category": "Meat & Fish",
-    "availableStore": ""
+    "image": "uploads/30.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae54",
     "productName": "Blue Ribbon",
     "category": "Rice",
-    "availableStore": ""
+    "image": "uploads/31.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae55",
     "productName": "Carolina",
     "category": "Rice",
-    "availableStore": ""
+    "image": "uploads/32.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae56",
     "productName": "A-Z Rice Traders",
     "category": "Rice",
-    "availableStore": ""
+    "image": "uploads/33.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae57",
     "productName": "Goya",
     "category": "Rice",
-    "availableStore": ""
+    "image": "uploads/34.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae58",
     "productName": "Knorr Rice",
     "category": "Rice",
-    "availableStore": ""
+    "image": "uploads/35.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae59",
     "productName": "Ashrafi Atta",
     "category": "Wheat (Atta)",
-    "availableStore": ""
+    "image": "uploads/36.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae5a",
     "productName": "Al-Karam Enterprise",
     "category": "Wheat (Atta)",
-    "availableStore": ""
+    "image": "uploads/37.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae5b",
     "productName": "Bake Parlour Atta",
     "category": "Wheat (Atta)",
-    "availableStore": ""
+    "image": "uploads/38.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae5c",
     "productName": "AFederal Flour Mills",
     "category": "Wheat (Atta)",
-    "availableStore": ""
+    "image": "uploads/39.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae5d",
     "productName": "Feroz Flour & General Mills",
     "category": "Wheat (Atta)",
-    "availableStore": ""
+    "image": "uploads/40.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae5e",
     "productName": "Tullo",
     "category": "Cooking Oil",
-    "availableStore": ""
+    "image": "uploads/41.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae5f",
     "productName": "Eva",
     "category": "Cooking Oil",
-    "availableStore": ""
+    "image": "uploads/42.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae60",
     "productName": "Dalda",
     "category": "Cooking Oil",
-    "availableStore": ""
+    "image": "uploads/43.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae61",
     "productName": "Dastarkhwan",
     "category": "Cooking Oil",
-    "availableStore": ""
+    "image": "uploads/44.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae62",
     "productName": "Tullo",
     "category": "Soya Supreme",
-    "availableStore": ""
+    "image": "uploads/45.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae63",
     "productName": "Fauji",
     "category": "Cereal",
-    "availableStore": ""
+    "image": "uploads/46.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae64",
     "productName": "Quaker Oats",
     "category": "Cereal",
-    "availableStore": ""
+    "image": "uploads/47.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae65",
     "productName": "Kellogg's",
     "category": "Cereal",
-    "availableStore": ""
+    "image": "uploads/48.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae66",
     "productName": "Frosties",
     "category": "Cereal",
-    "availableStore": ""
+    "image": "uploads/49.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae67",
     "productName": "Milo",
     "category": "Cereal",
-    "availableStore": ""
+    "image": "uploads/50.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae68",
     "productName": "K&N's",
     "category": "Frozen Foods",
-    "availableStore": ""
+    "image": "uploads/51.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae69",
     "productName": "Menu",
     "category": "Frozen Foods",
-    "availableStore": ""
+    "image": "uploads/52.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae6a",
     "productName": "Mon Salwa",
     "category": "Frozen Foods",
-    "availableStore": ""
+    "image": "uploads/53.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae6b",
     "productName": "Sabroso",
     "category": "Frozen Foods",
-    "availableStore": ""
+    "image": "uploads/54.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae6c",
     "productName": "Opa",
     "category": "Frozen Foods",
-    "availableStore": ""
+    "image": "uploads/55.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae6d",
     "productName": "Adam's",
     "category": "Cheese & Eggs",
-    "availableStore": ""
+    "image": "uploads/56.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae6e",
     "productName": "Happy Cow",
     "category": "Cheese & Eggs",
-    "availableStore": ""
+    "image": "uploads/57.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae6f",
     "productName": "Lurpak",
     "category": "Cheese & Eggs",
-    "availableStore": ""
+    "image": "uploads/58.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae70",
     "productName": "Young's",
     "category": "Cheese & Eggs",
-    "availableStore": ""
+    "image": "uploads/59.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae71",
     "productName": "Dairy Life",
     "category": "Cheese & Eggs",
-    "availableStore": ""
+    "image": "uploads/60.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae72",
     "productName": "Apple",
     "category": "Fruits",
-    "availableStore": ""
+    "image": "uploads/61.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae73",
     "productName": "Papaya",
     "category": "Fruits",
-    "availableStore": ""
+    "image": "uploads/62.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae74",
     "productName": "Grapes",
     "category": "Fruits",
-    "availableStore": ""
+    "image": "uploads/63.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae75",
     "productName": "Orange",
     "category": "Fruits",
-    "availableStore": ""
+    "image": "uploads/64.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae76",
     "productName": "Banana",
     "category": "Fruits",
-    "availableStore": ""
+    "image": "uploads/65.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae77",
     "productName": "Tomato",
     "category": "Vegetable",
-    "availableStore": ""
+    "image": "uploads/66.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae78",
     "productName": "Onion",
     "category": "Vegetable",
-    "availableStore": ""
+    "image": "uploads/67.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae79",
     "productName": "Lady Finger",
     "category": "Vegetable",
-    "availableStore": ""
+    "image": "uploads/68.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae7a",
     "productName": "Potato",
     "category": "Vegetable",
-    "availableStore": ""
+    "image": "uploads/69.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae7b",
     "productName": "Garlic",
     "category": "Vegetable",
-    "availableStore": ""
+    "image": "uploads/70.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae7c",
     "productName": "Black Pepper",
     "category": "Spices",
-    "availableStore": ""
+    "image": "uploads/71.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae7d",
     "productName": "Garlic Powder",
     "category": "Spices",
-    "availableStore": ""
+    "image": "uploads/72.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae7e",
     "productName": "Tumeric (Haldi)",
     "category": "Spices",
-    "availableStore": ""
+    "image": "uploads/73.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae7f",
     "productName": "Red Pepper",
     "category": "Spices",
-    "availableStore": ""
+    "image": "uploads/74.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae80",
     "productName": "Cumin (Zeera)",
     "category": "Spices",
-    "availableStore": ""
+    "image": "uploads/75.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae81",
     "productName": "Sunsilk",
     "category": "Shampoo, Soap & Conditioner",
-    "availableStore": ""
+    "image": "uploads/76.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae82",
     "productName": "Pantene",
     "category": "Shampoo, Soap & Conditioner",
-    "availableStore": ""
+    "image": "uploads/77.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae83",
     "productName": "Clear",
     "category": "Shampoo, Soap & Conditioner",
-    "availableStore": ""
+    "image": "uploads/78.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae84",
     "productName": "Head & Shoulders",
     "category": "Shampoo, Soap & Conditioner",
-    "availableStore": ""
+    "image": "uploads/79.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae85",
     "productName": "Hello Hair",
     "category": "Shampoo, Soap & Conditioner",
-    "availableStore": ""
+    "image": "uploads/80.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae86",
     "productName": "Nurpur",
     "category": "Butter",
-    "availableStore": ""
+    "image": "uploads/81.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae87",
     "productName": "Lurpak",
     "category": "Butter",
-    "availableStore": ""
+    "image": "uploads/82.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae88",
     "productName": "Haleeb Foods Limited",
     "category": "Butter",
-    "availableStore": ""
+    "image": "uploads/83.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae89",
     "productName": "Buffield Pvt. Ltd",
     "category": "Butter",
-    "availableStore": ""
+    "image": "uploads/84.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae8a",
     "productName": "Blue Band",
     "category": "Butter",
-    "availableStore": ""
+    "image": "uploads/85.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae8b",
     "productName": "Chana Daal",
     "category": "Lentils & Grains (Daal)",
-    "availableStore": ""
+    "image": "uploads/86.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae8c",
     "productName": "Mung Daal",
     "category": "Lentils & Grains (Daal)",
-    "availableStore": ""
+    "image": "uploads/87.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae8d",
     "productName": "Sabat Masoor",
     "category": "Lentils & Grains (Daal)",
-    "availableStore": ""
+    "image": "uploads/88.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae8e",
     "productName": "Toor Daal",
     "category": "Lentils & Grains (Daal)",
-    "availableStore": ""
+    "image": "uploads/89.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae8f",
     "productName": "Rajma",
     "category": "Lentils & Grains (Daal)",
-    "availableStore": ""
+    "image": "uploads/90.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae90",
     "productName": "Colgate",
     "category": "Toothpaste",
-    "availableStore": ""
+    "image": "uploads/91.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae91",
     "productName": "Crest",
     "category": "Toothpaste",
-    "availableStore": ""
+    "image": "uploads/92.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae92",
     "productName": "Sensodyne",
     "category": "Toothpaste",
-    "availableStore": ""
+    "image": "uploads/93.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae93",
     "productName": "Pepsodent",
     "category": "Toothpaste",
-    "availableStore": ""
+    "image": "uploads/94.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae94",
     "productName": "Parodontax",
     "category": "Toothpaste",
-    "availableStore": ""
+    "image": "uploads/95.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae95",
     "productName": "Lipton",
     "category": "Tea / Coffee",
-    "availableStore": ""
+    "image": "uploads/96.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae96",
     "productName": "Tapal",
     "category": "Tea / Coffee",
-    "availableStore": ""
+    "image": "uploads/97.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae97",
     "productName": "Brooke Bond Supreme",
     "category": "Tea / Coffee",
-    "availableStore": ""
+    "image": "uploads/98.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae98",
     "productName": "Vital",
     "category": "Tea / Coffee",
-    "availableStore": ""
+    "image": "uploads/99.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae99",
     "productName": "ITC Islamabad Chai",
     "category": "Tea / Coffee",
-    "availableStore": ""
+    "image": "uploads/100.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae9a",
     "productName": "Jauharabad Sugar Mills Limited",
     "category": "Sugar",
-    "availableStore": ""
+    "image": "uploads/101.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae9b",
     "productName": "Sugarie",
     "category": "Sugar",
-    "availableStore": ""
+    "image": "uploads/102.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae9c",
     "productName": "Tandlianwala Sugar Mills Limited",
     "category": "Sugar",
-    "availableStore": ""
+    "image": "uploads/103.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae9d",
     "productName": "D.W Sugar Mills Limited",
     "category": "Sugar",
-    "availableStore": ""
+    "image": "uploads/104.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae9e",
     "productName": "Haseeb Waqas Sugar Mills Limited",
     "category": "Sugar",
-    "availableStore": ""
+    "image": "uploads/105.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1ae9f",
     "productName": "National",
     "category": "Ketchup / Murtard / Mayo",
-    "availableStore": ""
+    "image": "uploads/106.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aea0",
     "productName": "Shangrila",
     "category": "Ketchup / Murtard / Mayo",
-    "availableStore": ""
+    "image": "uploads/107.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aea1",
     "productName": "Knorr",
     "category": "Ketchup / Murtard / Mayo",
-    "availableStore": ""
+    "image": "uploads/108.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aea2",
     "productName": "Bake Parlour",
     "category": "Ketchup / Murtard / Mayo",
-    "availableStore": ""
+    "image": "uploads/109.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aea3",
     "productName": "Dipitt",
     "category": "Ketchup / Murtard / Mayo",
-    "availableStore": ""
+    "image": "uploads/110.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aea4",
     "productName": "Kit Kat",
     "category": "Chocolate",
-    "availableStore": ""
+    "image": "uploads/111.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aea5",
     "productName": "Twix",
     "category": "Chocolate",
-    "availableStore": ""
+    "image": "uploads/112.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aea6",
     "productName": "Snickers",
     "category": "Chocolate",
-    "availableStore": ""
+    "image": "uploads/113.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aea7",
     "productName": "Dairy Milk",
     "category": "Chocolate",
-    "availableStore": ""
+    "image": "uploads/114.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aea8",
     "productName": "Milky Way",
     "category": "Chocolate",
-    "availableStore": ""
+    "image": "uploads/115.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aea9",
     "productName": "Lemon Max",
     "category": "Detergent & Dish Soap",
-    "availableStore": ""
+    "image": "uploads/116.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeaa",
     "productName": "Vim",
     "category": "Detergent & Dish Soap",
-    "availableStore": ""
+    "image": "uploads/117.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeab",
     "productName": "Surf Excel",
     "category": "Detergent & Dish Soap",
-    "availableStore": ""
+    "image": "uploads/118.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeac",
     "productName": "Ariel",
     "category": "Detergent & Dish Soap",
-    "availableStore": ""
+    "image": "uploads/119.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aead",
     "productName": "Express Power",
     "category": "Detergent & Dish Soap",
-    "availableStore": ""
+    "image": "uploads/120.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeae",
     "productName": "Wall's",
     "category": "Ice-Cream",
-    "availableStore": ""
+    "image": "uploads/121.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeaf",
     "productName": "Igloo",
     "category": "Ice-Cream",
-    "availableStore": ""
+    "image": "uploads/122.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeb0",
     "productName": "Hico",
     "category": "Ice-Cream",
-    "availableStore": ""
+    "image": "uploads/123.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeb1",
     "productName": "Omore",
     "category": "Ice-Cream",
-    "availableStore": ""
+    "image": "uploads/124.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeb2",
     "productName": "Yummy",
     "category": "Ice-Cream",
-    "availableStore": ""
+    "image": "uploads/125.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeb3",
     "productName": "Pampers",
     "category": "Baby Diapers",
-    "availableStore": ""
+    "image": "uploads/126.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeb4",
     "productName": "Molfix",
     "category": "Baby Diapers",
-    "availableStore": ""
+    "image": "uploads/127.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeb5",
     "productName": "Huggies",
     "category": "Baby Diapers",
-    "availableStore": ""
+    "image": "uploads/128.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeb6",
     "productName": "Canbebe",
     "category": "Baby Diapers",
-    "availableStore": ""
+    "image": "uploads/129.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeb7",
     "productName": "Shield",
     "category": "Baby Diapers",
-    "availableStore": ""
+    "image": "uploads/130.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeb8",
     "productName": "Axe",
     "category": "Deodorant",
-    "availableStore": ""
+    "image": "uploads/131.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeb9",
     "productName": "Krone Noir",
     "category": "Deodorant",
-    "availableStore": ""
+    "image": "uploads/132.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeba",
     "productName": "Fogg",
     "category": "Deodorant",
-    "availableStore": ""
+    "image": "uploads/133.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aebb",
     "productName": "Bold",
     "category": "Deodorant",
-    "availableStore": ""
+    "image": "uploads/134.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aebc",
     "productName": "Nivea",
     "category": "Deodorant",
-    "availableStore": ""
+    "image": "uploads/135.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aebd",
     "productName": "Almonds",
     "category": "Dry Fruits",
-    "availableStore": ""
+    "image": "uploads/136.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aebe",
     "productName": "Apricots",
     "category": "Dry Fruits",
-    "availableStore": ""
+    "image": "uploads/137.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aebf",
     "productName": "Cashewnuts",
     "category": "Dry Fruits",
-    "availableStore": ""
+    "image": "uploads/138.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aec0",
     "productName": "Walnuts",
     "category": "Dry Fruits",
-    "availableStore": ""
+    "image": "uploads/139.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aec1",
     "productName": "Pistachios",
     "category": "Dry Fruits",
-    "availableStore": ""
+    "image": "uploads/140.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aec2",
     "productName": "Shan",
     "category": "Salt",
-    "availableStore": ""
+    "image": "uploads/141.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aec3",
     "productName": "National",
     "category": "Salt",
-    "availableStore": ""
+    "image": "uploads/142.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aec4",
     "productName": "Hub Salt",
     "category": "Salt",
-    "availableStore": ""
+    "image": "uploads/143.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aec5",
     "productName": "Falak Salt",
     "category": "Salt",
-    "availableStore": ""
+    "image": "uploads/144.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aec6",
     "productName": "Rite Salt",
     "category": "Salt",
-    "availableStore": ""
+    "image": "uploads/145.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aec7",
     "productName": "My Honey",
     "category": "Honey",
-    "availableStore": ""
+    "image": "uploads/146.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aec8",
     "productName": "Langnese Honey",
     "category": "Honey",
-    "availableStore": ""
+    "image": "uploads/147.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aec9",
     "productName": "Al-Shifa Honey",
     "category": "Honey",
-    "availableStore": ""
+    "image": "uploads/148.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aeca",
     "productName": "Young's Honey",
     "category": "Honey",
-    "availableStore": ""
+    "image": "uploads/149.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   },
   {
+    "_id": "63828aacc70d122746d1aecb",
     "productName": "Salmans Pak Honey",
     "category": "Honey",
-    "availableStore": ""
+    "image": "uploads/150.jpg",
+    "availableStore": [
+      {
+        "storeName": "Chase Value",
+        "price": ""
+      },
+      {
+        "storeName": "metro",
+        "price": ""
+      }
+    ]
   }
 ]
