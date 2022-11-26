@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const express = require("express");
 const productList = require("./model");
+const products = require("./groceryItemsWithPrice.json");
 const cors = require("cors");
 const app = express();
 app.use(cors());
@@ -18,7 +19,7 @@ let port = process.env.PORT || "8080";
 app.get("/products", async (req, res) => {
   // let data = await productList.find({});
   // res.json(data);
-  res.json({ name: "maaz" });
+  res.json(products);
 });
 app.listen(port, () => {
   console.log("listning....");
