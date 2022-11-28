@@ -1,7 +1,7 @@
 [
   {
     "_id": "63828aacc70d122746d1ae36",
-    "productName": "Nurpur",
+    "productName": "Nurpur Milk",
     "category": "Milk",
     "image": "uploads/1.jpg",
     "availableStore": [
@@ -1281,7 +1281,7 @@
   },
   {
     "_id": "63828aacc70d122746d1ae86",
-    "productName": "Nurpur",
+    "productName": "Nurpur Butter",
     "category": "Butter",
     "image": "uploads/81.jpg",
     "availableStore": [
