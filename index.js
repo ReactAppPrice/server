@@ -42,15 +42,16 @@ const tokenPush = mongoose.model("tokens", pushtoken);
 
 app.post("/push-token", async (req, res) => {
   const { pushToken } = req.body;
-  const token = new tokenPush({ pushToken });
-  token
-    .save()
-    .then((data) => {
-      res.send({ success: true });
-    })
-    .catch((err) => {
-      res.send({ success: false });
-    });
+  res.send(pushToken)
+//   const token = new tokenPush({ pushToken });
+//   token
+//     .save()
+//     .then((data) => {
+//       res.send({ success: true });
+//     })
+//     .catch((err) => {
+//       res.send({ success: false });
+//     });
 });
 
 // if you delete alla the items then just open this code and call api
