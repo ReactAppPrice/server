@@ -40,9 +40,16 @@ const pushtoken = new mongoose.Schema({
 // token schema into a model
 const tokenPush = mongoose.model("tokens", pushtoken);
 
-app.get("/pushtoken",  (req, res) => {
+app.get("/token", async (req, res) => {
+  let data = await Item.find({});
+  res.json(data);
+});
+
+
+
+// app.get("/pushtoken",  (req, res) => {
 //   const { pushToken } = req.body;
-  res.json(req.body)
+//   res.json(req.body)
 //   const token = new tokenPush({ pushToken });
 //   token
 //     .save()
@@ -52,7 +59,7 @@ app.get("/pushtoken",  (req, res) => {
 //     .catch((err) => {
 //       res.send({ success: false });
 //     });
-});
+// });
 
 // if you delete alla the items then just open this code and call api
 // app.post("/products", async (req, res) => {
