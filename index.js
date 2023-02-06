@@ -40,9 +40,9 @@ const pushtoken = new mongoose.Schema({
 // token schema into a model
 const tokenPush = mongoose.model("tokens", pushtoken);
 
-app.post("/push-token", async (req, res) => {
-  const { pushToken } = req.body;
-  res.send(pushToken)
+app.post("/push-token",  (req, res) => {
+//   const { pushToken } = req.body;
+  res.json(req.body)
 //   const token = new tokenPush({ pushToken });
 //   token
 //     .save()
