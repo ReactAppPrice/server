@@ -2,12 +2,10 @@ const mongoose = require("mongoose");
 const express = require("express");
 const productList = require("./model");
 const { Expo } = require("expo-server-sdk");
-const products = require("./groceryItemsWithPrice.json");
 const cors = require("cors");
 const app = express();
 app.use(cors());
 app.use(express.json());
-// const expoSDK = Expo;
 let port = process.env.PORT || "8080";
 let expo = new Expo();
 mongoose
@@ -48,6 +46,13 @@ app.post("/push-token", async (req, res) => {
     });
 });
 // for store pushtoken END///////////
+
+//////////////////// GET ALL TOKEN FROM API /////////////////////
+app.get("/tokenList", async (req, res) => {
+  const tokens = await tokenPush.find({});
+  res.send(tokens);
+});
+//////////////////// GET ALL TOKEN FROM API /////////////////////
 
 ///////////////// FOR SHOW NOTIFICATION START ////////////////
 const notificationSchema = new mongoose.Schema({
