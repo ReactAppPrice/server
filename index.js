@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 const express = require("express");
-const productList = require("./model");
 const { Expo } = require("expo-server-sdk");
 const cors = require("cors");
 const app = express();
@@ -8,6 +7,7 @@ app.use(cors());
 app.use(express.json());
 let port = process.env.PORT || "8080";
 let expo = new Expo();
+///////////////////////// MONGOOSE CONNECTION WITH MONGODB ATLAS ////////////////
 mongoose
   .connect(
     "mongodb+srv://huzaifa:fireburning300@cluster0.xxwlzho.mongodb.net/?retryWrites=true&w=majority"
@@ -19,7 +19,7 @@ mongoose
     console.log("error");
   });
 
-let db = mongoose.connection;
+////////////////////// ALL PRODUCTS LIST SCHEMA AND MODEL //////////////
 const productslists = new mongoose.Schema({
   _id: String,
   productName: String,
@@ -28,6 +28,7 @@ const productslists = new mongoose.Schema({
   availableStore: Array,
 });
 const Item = mongoose.model("Item", productslists);
+////////////////////// ALL PRODUCTS LIST SCHEMA AND MODEL //////////////
 
 // for store pushtoken start///////////
 const pushtoken = new mongoose.Schema({
@@ -47,22 +48,26 @@ app.post("/push-token", async (req, res) => {
 });
 // for store pushtoken END///////////
 
-//////////////////// GET ALL TOKEN FROM API /////////////////////
+//////////////////// GET ALL TOKEN FROM API START/////////////////////
 app.get("/tokenList", async (req, res) => {
   const tokens = await tokenPush.find({});
   res.send(tokens);
 });
-//////////////////// GET ALL TOKEN FROM API /////////////////////
+//////////////////// GET ALL TOKEN FROM API END /////////////////////
 
-///////////////// FOR SHOW NOTIFICATION START ////////////////
+///////////////// FOR SEND NOTIFICATION START ////////////////
 const notificationSchema = new mongoose.Schema({
-  message: String,
+  description: String,
 });
 const Notification = mongoose.model("Notification", notificationSchema);
+
 app.post("/send-notification", async (req, res) => {
+  console.log(req.body);
+  const notificationUpdateOnDatabase = new Notification(req.body);
+  notificationUpdateOnDatabase.save();
   // if you want to add a notifications in your data base then enable the below two lines///////
-  // const notificationDocument = new Notification(req.body);
-  // await notificationDocument.save();
+  // let data = await Notification.insertMany([...notificationsList]);
+  // console.log(data);
 
   // Get all the push tokens from the database
   const pushTokens = await tokenPush.find({});
@@ -81,7 +86,7 @@ app.post("/send-notification", async (req, res) => {
     validPushTokens.map((pushToken) => ({
       to: pushToken,
       sound: "default",
-      body: "You have a new notification...",
+      body: `${req.body.description}`,
       data: req.body,
     }))
   );
@@ -99,7 +104,14 @@ app.post("/send-notification", async (req, res) => {
   res.send({ success: true });
 });
 
-///////////////// FOR SHOW NOTIFICATION END ////////////////
+///////////////// FOR SEND NOTIFICATION END ////////////////
+
+////////////////////////////////// GET ALL NOTIFICATIONS START /////////////////////////////////////
+app.get("/showNotifications", async (req, res) => {
+  const allNotifications = await Notification.find({});
+  res.send(allNotifications);
+});
+////////////////////////////////// GET ALL NOTIFICATIONS END /////////////////////////////////////
 
 // if you delete alla the items then just open this code and call api
 // app.post("/products", async (req, res) => {
