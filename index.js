@@ -7,6 +7,7 @@ app.use(cors());
 app.use(express.json());
 let port = process.env.PORT || "8080";
 let expo = new Expo();
+app.use("/uploads", express.static("uploads"));
 ///////////////////////// MONGOOSE CONNECTION WITH MONGODB ATLAS ////////////////
 mongoose
   .connect(
